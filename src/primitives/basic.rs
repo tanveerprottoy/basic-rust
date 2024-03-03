@@ -12,8 +12,3 @@ pub fn basic() {
     z = 1024.24;
     println!("{}", z);
 }
-
-pub fn tuple() {
-    let t: &(i32, f32) = &(18, 22.06);
-    println!("{:?}", t);
-}

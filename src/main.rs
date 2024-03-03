@@ -1,6 +1,7 @@
 mod primitives;
 
+use crate::primitives::basic;
+
 fn main() {
-    primitives::basic();
-    primitives::tuple();
+    basic();
 }
