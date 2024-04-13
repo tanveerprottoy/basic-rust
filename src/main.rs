@@ -1,7 +1,9 @@
 mod primitives;
 
-use crate::primitives::basic;
+// import the function from basic module
+use crate::primitives::basic::example;
 
 fn main() {
-    basic();
+    primitives::tuples::tuple();
+    example();
 }

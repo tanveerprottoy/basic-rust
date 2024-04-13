@@ -1,4 +1,4 @@
-pub fn basic() {
+pub fn example() {
     let x: i32 = 128;
     let y = 256;
     let mut z: f32 = 512.12;
